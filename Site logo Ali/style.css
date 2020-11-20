@@ -1,0 +1,326 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 75%;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  margin-left: 18%;
+  z-index: 1;
+}
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+body{
+	background-color: #ffffff;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+.inic{
+	width: 100%;
+}
+.titulo{
+	width: 100%;
+}
+#titulo{
+	width: 100%;
+	position: relative;
+	z-index: 5;
+}
+.capa{
+	width: 100%;
+	background-color: #a8272c;
+	height:700px;
+	position: relative;
+	z-index:2;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: -5%;
+
+}
+.madeiratop{
+	width:101%;
+	margin-top: -8%;
+	position:relative;
+	z-index:3;
+	margin-left: -1%;
+	margin-right: auto;
+}
+#madeira{
+	width:101%;
+	margin-top: -8%;
+	position:relative;
+	z-index:3;
+	margin-left: -1%;
+	margin-right: auto;
+}
+#topo{
+	width:101%;
+	margin-top: -3%;
+	position:relative;
+	z-index:2;
+	margin-left: -1%;
+	margin-right: auto;
+}
+#logotipo1{
+	width: 65%;
+	margin-right:auto;
+	margin-left: auto;
+	position: absolute;
+	z-index: 4;
+	padding-left:25%; 
+	padding-top: 9%;
+	opacity: 75%;
+}
+#logotipo2{
+	width: 10%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -5%;
+	position: relative;
+	z-index: 3;
+}
+#pratos{
+	width:35%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index:1;
+}
+#pizzas{
+	width:35%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index:5;
+}
+#hamb{
+	width:35%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index:4;
+}
+#bebidas{
+	width:35%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index:5;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+}
+#footer{
+	width:101%;
+	position:relative;
+	margin-right: auto;
+	margin-left: -1%;
+	z-index:2;
+}
+ #prato{
+ 	display: block;
+ 	width: 50%;
+ 	position: relative;
+ 	margin: auto;
+ }
+ #calabresa{
+ 	 display: block;
+ 	width: 50%;
+ 	position: relative;
+ 	margin: auto;
+ }
+ #hamburguer{
+  	display: block;
+ 	width: 50%;
+ 	position: relative;
+ 	margin: auto;
+ }
+ #bolinhos{
+ 	display: block;
+ 	width: 50%;
+ 	position: relative;
+ 	margin: auto;
+ }
+#slideimg{
+	opacity: 50%;
+	max-width: 1000px;
+	max-height: 700px;
+}
+@media only screen and (max-device-width: 600px) {
+ body { width:100%;}
+   .pizzas, .pratos, .hamb, .bebidas{ width: 100%;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+  }
+    #pizzas, #pratos, #hamb, #bebidas{ width: 100%;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  #slideimg{
+  	opacity: 100%;
+  }
+  .inic{
+  	background-color: #a8272c;
+  }
+  .capa{
+	width: 100%;
+	background-color: #a8272c;
+	height: 800px;
+	position: relative;
+	z-index:2;
+	margin-right:2%;
+	margin-left: auto;
+	margin-top: -5%;
+
+}
+  .slideshow-container {
+  	width: 100%;
+  	height: 600px;
+  	margin-top: 30%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	position: relative;
+  }
+  #logotipo1{
+  	width: 80%;
+  	margin-top: 0%;
+  }
+    #logotipo2{
+  	width: 40%;
+  }
+  .madeiratop{
+  	width:101%;
+	margin-top:-1%;
+	position:relative;
+	z-index:3;
+	margin-left: -1%;
+	margin-right: auto;
+  }
+  .footer{
+  	width:100%;
+	position:relative;
+	margin-right: auto;
+	margin-left: -1%;
+	z-index:2;
+  }
+}
+@media only screen and (max-device-width: 900px) {
+ body { width:100%;}
+   .pizzas, .pratos, .hamb, .bebidas{ width: 100%;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+  }
+  #pizzas, #pratos, #hamb, #bebidas{ width: 100%;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  }
+  #slideimg{
+  	opacity: 100%; 
+  }
+  .inic{
+  	background-color: #a8272c;
+  }
+  .capa{
+	width: 100%;
+	background-color: #a8272c;
+	height: 500px;
+	position: relative;
+	z-index:2;
+	margin-right:2%;
+	margin-left: auto;
+	margin-top: 0%;
+	padding: auto;
+
+}
+   .slideshow-container {
+  	width: 100%;
+  	height: 600px;
+  	margin-top: 00%;
+  	margin-right: auto;
+  	margin-left: auto;
+  	position: relative;
+  	margin-top: 0%;
+  }
+  #logotipo1{
+  	width: 80%;
+  	margin-top: -5%;
+  }
+    #logotipo2{
+  	width: 40%;
+  	display: none;
+  }
+  .madeiratop{
+  	width:101%;
+	margin-top:-2%;
+	position:relative;
+	z-index:3;
+	margin-left: -1%;
+	margin-right: auto;
+  }
+  .footer{
+  	width:100%;
+	position:relative;
+	margin-right: auto;
+	margin-left: -1%;
+	z-index:2;
+  }
+  #titulo{
+  	width: 100%;
+  }
+ .topo{
+ 	width:101%;
+	margin-top: -2%;
+	position:relative;
+	z-index:2;
+	margin-left: -1%;
+	margin-right: auto;
+ }
+ #prato{
+ 	width: 100%;
+ }
+ #calabresa{
+ 	width: 100%;
+ }
+ #hamburguer{
+ 	width: 100%;
+ }
+ #bolinhos{
+ 	width: 100%;
+ }
+}

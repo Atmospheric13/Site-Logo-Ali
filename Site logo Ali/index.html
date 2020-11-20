@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<head>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<title>É logo Ali Mineirices</title>
+</head>
+<body>
+	<div class="topo">
+		<div class="inic">
+			<img class="madeiratop" src="img\madeiras.jpg">
+			<div class="titulo">
+				<img id="titulo" src="img\titulo.jpg">
+			</div>
+			<div class="capa">
+				<div class="slideshow-container">
+					<img id="logotipo1" src="img\adesivo.jpg">
+					<div class="mySlides fade">
+						<img id="slideimg" src="img\escondidinho.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  	<img id="slideimg" src="img\filemignon.jpg" style="width:100%">
+					</div>
+
+					<div class="mySlides fade">
+					  	<img id="slideimg" src="img\pizza.jpg" style="width:100%">
+					</div>
+				</div>
+			</div>
+			<div>
+				<img id="topo" src="img\madeiras.jpg">
+			</div>
+		</div>
+	</div>
+		<div>
+			<img id="logotipo2" src="img\adesivo.jpg">
+		</div>
+	<div class="container">
+		<div class="pratos">
+			<img id="prato" src="img\prato.jpg">
+			<img id="pratos" src="img\pratos.jpg">
+		</div>
+		<div class="pizzas">
+			<img id="calabresa" src="img\calabresa.jpg">
+			<img id="pizzas" src="img\pizzas.jpg">
+		</div>
+		<div class="hamb">
+			<img id="hamburguer" src="img\hamburguer.jpg">
+			<img id="hamb" src="img\hamburgueres e porções.jpg">
+		</div>
+		<div class="bebidas">
+			<img id="bolinhos" src="img\bolinho.jpg">
+			<img id="bebidas" src="img\bebidas.jpg">
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="footer">
+		<div>
+			<img id="footer" src="img\madeiras2.jpg">
+		</div>
+	</div>
+</footer>
+</html>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000);
+}
+</script>
